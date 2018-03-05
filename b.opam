@@ -1,8 +1,0 @@
-opam-version: "1.2"
-maintainer: "Hezekiah M. Carty <hez@0ok.org>"
-authors: [ "Hezekiah M. Carty <hez@0ok.org>" ]
-license: "CC0"
-build: ["jbuilder" "build" "-p" name "-j" jobs]
-depends: [
-  "jbuilder" {build}
-]
